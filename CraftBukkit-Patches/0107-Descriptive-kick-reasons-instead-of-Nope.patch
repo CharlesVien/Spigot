@@ -44,7 +44,7 @@ index 096ac2d..38ed1bf 100644
          } else {
              c.warn(this.player.getName() + " tried to set an invalid carried item");
 -            this.disconnect("Nope!"); // CraftBukkit
-+            this.disconnect("Invalid hotbar selection (Hacking?)"); // CraftBukkit //Spigot "Nope" -> Descriptive reason
++            // this.disconnect("Invalid hotbar selection (Hacking?)"); // CraftBukkit //Spigot "Nope" -> Descriptive reason
          }
      }
  
