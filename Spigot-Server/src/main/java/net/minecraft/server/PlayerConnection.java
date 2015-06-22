@@ -828,7 +828,7 @@ public class PlayerConnection implements PacketPlayInListener {
             this.player.v();
         } else {
             c.warn(this.player.getName() + " tried to set an invalid carried item");
-            this.disconnect("Invalid hotbar selection (Hacking?)"); // CraftBukkit //Spigot "Nope" -> Descriptive reason
+            // this.disconnect("Invalid hotbar selection (Hacking?)"); // CraftBukkit //Spigot "Nope" -> Descriptive reason
         }
     }
 
